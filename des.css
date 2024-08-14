@@ -1,0 +1,96 @@
+body {
+    font-family: "Baskervville", serif;
+    text-align: center;
+    font-size: larger;
+}
+
+/* part 1 */
+
+.h {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+#hh {
+    color: white;
+    background-color: #275937;
+    margin-top: 5px;
+}
+
+.part1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("images/main.mov");
+    background-position: center left;
+    height: 550px;
+}
+
+
+/* part 2 */
+
+.part2 {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imgs, .descr, .headings {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.de {
+    align-self: center;
+    margin: 0 auto;
+    width: 25%;
+}
+
+
+
+.colo {
+    background: #e3fce1;
+    padding: 10px 10px;
+}
+
+.part3 {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    width: 550px;
+    background: linear-gradient(#c6b0a3, white);
+    border-bottom: 15px solid rgb(64, 65, 69);
+    border-radius: 2%;
+}
+
+#de {
+    width: 35%;
+    padding: 0 50px;
+}
+
+.pp {
+    font-style: italic;
+}
+
+#mypic {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    padding-left: 10px;
+}
